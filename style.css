@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: rgb(15, 14, 14);
+    --secondary-text-color: rgb(50, 50, 50);
+    --primary-text-size: 2rem;
+    --secondary-text-size: 1rem;
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Ubuntu", sans-serif;
+    --accent-color: #337b99;
+    --hover-color: #1d3d61;
+}
+
+.page{
+    background-color:rgb(209, 209, 255);
+}
+
+.container {
+    margin: 30px 140px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* banner section */
+
+.banner {
+    width: 100%;
+    height: 60px;
+    background-color: #337b99;
+}
+
+.banner h2 {
+    font-size: var(--primary-text-size);
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/* navigation section   */
+
+.nav {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-text-size);
+}
+
+.head2 a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+
+}
+
+.nav-right {
+    justify-content: space-between;
+}
+
+.links li {
+    align-items: center;
+    list-style: none;
+    padding: 20px 10px;
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.items:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out 0.2s;
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: var(--hover-color);
+    transition: ease-in 0.2s;
+}
+
+/* intro section   */
+
+.intro {
+    flex-direction: column;
+    gap: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.left h3{
+    font-size: 3rem;
+    font-family: var(--primary-font-family);
+    color: var(--accent-color);
+}
+
+.right p{
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-text-color);
+    font-size: 1.6rem;
+}
+
+
+
+.head3{
+    font-family: var(--primary-font-family);
+    text-align: center;
+    font-size: var(--primary-text-size);
+    margin-top: 100px;
+    color: var(--accent-color);
+}
+
+.head4{
+    text-align: center;
+    color: var(--accent-color);
+    font-family: var(--primary-font-family);
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    text-decoration: underline ;
+}
+
+/* courses section   */
+.courses{
+    margin-top: 40px;
+    text-align: center;   
+    margin-bottom: 80px; 
+}
+
+.courses .flex{
+    justify-content: space-around;
+}
+
+.courses li{
+    list-style: none;
+    padding: 20px 50px;
+    font-family: var(--secondary-font-family);
+    justify-content: space-between;
+}
+
+.courses a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 20px;
+    background-color: var(--accent-color);
+    border-radius: 15px;
+}
+
+.courses a:hover{
+    background-color: var(--hover-color);
+    transition: ease-in-out 0.3s;
+}
+
+/* semesters section   */
+
+.semesters{
+    margin-top: 40px;
+    text-align: center;    
+    margin-bottom: 80px; 
+    flex-direction: column;
+    text-align:left;
+    gap: 40px ;
+}
+
+.semesters h2{
+    color: var(--primary-text-color);
+    font-size: 2.6rem;
+    font-family: var(--primary-font-family);
+}
+
+.line{
+    color: var(--accent-color);
+    width: 100%;
+    border: 2px solid var(--hover-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.semesters li{
+    list-style: none;
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+}
+
+.semesters a {
+    color: var(--accent-color);
+}
+
+.subs li{
+    padding: 5px 0 ;
+}
+
+
+
+
+
+
+
